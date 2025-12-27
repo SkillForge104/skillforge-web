@@ -1,0 +1,13 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body::before {
+  display: block;
+  content: "";
+  height: 30px;
+}
+
+section {
+  scroll-margin-top: 50px;
+}
