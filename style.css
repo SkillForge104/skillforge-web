@@ -9,5 +9,9 @@ body::before {
 }
 
 section {
-  scroll-margin-top: 50px;
+  scroll-margin-top: 60px;
+}
+
+.hero {
+  min-height: 100vh;
 }

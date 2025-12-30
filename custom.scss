@@ -1,0 +1,24 @@
+// 1. Required Bootstrap functions
+@import "node_modules/bootstrap/scss/functions";
+
+// 2. Your Brand Overrides
+$primary: #ef9536; // Amber (Best for buttons/CTA)
+$secondary: #196576; // Teal (Best for Navbars/Footers)
+$success: #2a9d8f; // Harmonized Green
+$info: #7fb3bc; // Muted Teal-Blue
+$warning: #ffca3a; // Bright yellow
+$danger: #bc4749; // Muted Red (doesn't clash with amber)
+$light: #f0f6fa; // Very cool-toned light gray
+$dark: #000d12; // Deepest version of your teal
+
+// 3. Layout Adjustments
+$body-bg: $light;
+$body-color: $dark;
+$link-color: $secondary;
+
+// 4. Required Bootstrap variables
+@import "node_modules/bootstrap/scss/variables";
+
+// 5. Final Import
+@import "node_modules/bootstrap/scss/bootstrap";
+// Midnight Blue-Black
