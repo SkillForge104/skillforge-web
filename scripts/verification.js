@@ -5,6 +5,16 @@ async function verifyCertificate() {
   resultDiv.classList.remove("d-none");
   const data = await fetch("../data/certificates.json");
   const parsedData = await data.json();
+
+  if (!parsedData.certificates[input]) {
+    resultDiv.innerHTML = `
+      <div class="alert alert-danger text-center">
+        ❌ Certificate not found. Please check the ID.
+      </div>
+    `;
+    return;
+  }
+
   const certificateData = {
     id: input,
     name: parsedData.certificates[input].name,
@@ -18,7 +28,7 @@ async function verifyCertificate() {
   };
   console.log(certificateData);
   resultDiv.innerHTML = `
-    <div class="card shadow border-0 mb-5">
+    <div class="card shadow border-0 mb-5 ">
       <div class="card-body text-dark">
         <span class="badge bg-success mb-2">Approved</span>
         <h4 class="fw-bold">${certificateData.name}</h4>
