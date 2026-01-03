@@ -7,6 +7,9 @@ body::before {
   content: "";
   height: 30px;
 }
+p {
+  line-height: 1.7;
+}
 
 .hidden {
   opacity: 0;
