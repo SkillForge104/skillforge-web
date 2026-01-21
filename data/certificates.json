@@ -53,22 +53,17 @@
       "status": "Approved"
     },
     "SF-CS-2W25-003": {
-      "name": "Sankar Ganesh M",
-      "track": "CyberSecurity",
-      "status": "Approved"
-    },
-    "SF-CS-2W25-004": {
-      "name": "Thimna Carolin C",
-      "track": "Cloud & Devops",
-      "status": "Approved"
-    },
-    "SF-CS-2W25-005": {
       "name": "Muthumari S",
       "track": "CyberSecurity",
       "status": "Approved"
     },
-    "SF-CS-2W25-006": {
+    "SF-CS-2W25-004": {
       "name": "Rudhran R",
+      "track": "Cloud & Devops",
+      "status": "Approved"
+    },
+    "SF-CS-2W25-005": {
+      "name": "Sankar Ganesh M",
       "track": "CyberSecurity",
       "status": "Approved"
     },
@@ -221,6 +216,16 @@
     },
     "SF-CC-2W25-004": {
       "name": "Kalai Selvi I",
+      "track": "Cloud & Devops",
+      "status": "Approved"
+    },
+    "SF-CC-2W25-005": {
+      "name": "Sandhanamari M",
+      "track": "Cloud & Devops",
+      "status": "Approved"
+    },
+    "SF-CC-2W25-006": {
+      "name": "Thimna Carolin C",
       "track": "Cloud & Devops",
       "status": "Approved"
     }
